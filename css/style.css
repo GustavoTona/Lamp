@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lamp-off {
+    width: 600px;
+}
+
+#btn-on {
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(156, 228, 49);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn-off {
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    background-color:rgb(235, 69, 54);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
